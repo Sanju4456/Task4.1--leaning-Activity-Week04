@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import SIT707.loginform;
 
+
 public class loginformtest {
 	loginform inst;
 
@@ -21,5 +22,5 @@ public class loginformtest {
 	public void setup() {
 		inst = new loginform();
 		System.out.println("--setup");
-	}
+}
 }
